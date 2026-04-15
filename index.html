@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONINGENIO Consultoría & Software</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+  <header>
+    <div class="logo">
+      <h1>CONINGENIO Consultoría & Software</h1>
+    </div>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <button id="toggleMode" aria-label="Cambiar modo visual">🌙/☀️</button>
+  </header>
+
+  <main>
+    <section id="home" aria-labelledby="titulo-home">
+      <h2 id="titulo-home">Innovación y Soluciones Digitales</h2>
+      <p>Ofrecemos consultoría y desarrollo de software para potenciar tu empresa.</p>
+    </section>
+
+<section id="servicios" class="p-5" aria-labelledby="titulo-servicios">
+  <h2 id="titulo-servicios">Nuestros Servicios</h2>
+  <article class="card">
+    <h3>Consultoría Digital</h3>
+    <p>Optimización de procesos y transformación digital.</p>
+  </article>
+  <article class="card">
+    <h3>Soluciones Multiexperiencia</h3>
+    <p>Experiencias integradas en múltiples plataformas.</p>
+  </article>
+  <article class="card">
+    <h3>Evolución de Ecosistemas</h3>
+    <p>Adaptación tecnológica para entornos cambiantes.</p>
+  </article>
+  <article class="card">
+    <h3>Soluciones Low-Code</h3>
+    <p>Desarrollo ágil con herramientas de bajo código.</p>
+  </article>
+</section>
+
+
+    <section id="nosotros" aria-labelledby="titulo-nosotros">
+      <h2 id="titulo-nosotros">Nosotros</h2>
+      <p><strong>Misión:</strong> Innovar con excelencia.</p>
+      <p><strong>Visión:</strong> Ser líderes en soluciones digitales.</p>
+      <p><strong>Valores:</strong> Compromiso, innovación, calidad.</p>
+    </section>
+
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contáctenos</h2>
+      <form id="contactForm">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" name="servicio" required>
+          <option value="">Seleccione...</option>
+          <option>Consultoría Digital</option>
+          <option>Soluciones Multiexperiencia</option>
+          <option>Evolución de Ecosistemas</option>
+          <option>Soluciones Low-Code</option>
+        </select>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <address>
+        Av. Providencia 1234, Oficina 601, Santiago, Chile<br>
+        Teléfono: +56 2 1234 5678<br>
+        Email: <a href="mailto:info@coningenio.cl">info@coningenio.cl</a>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CONINGENIO Consultoría & Software</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
